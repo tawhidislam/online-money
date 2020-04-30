@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online bank website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+    
+
+    <div id="login-area">
+        <h1 class="welcome-txt">Welcome to online Bank</h1>
+        <div class="submit-area">
+            <h1>Login</h1>
+            <div class="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                
+              </div>
+              <div class="form-group">
+                <label for="exampleInputPassword1">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+              </div>
+              <button id="login-btn" type="submit" class="btn btn-primary">Submit</button>
+        </div>
+    </div>
+
+
+    <div class="trans-area" id="trans-area">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="dipositarea trnsitem">
+                    <h5>Diposit</h5>
+                    <h2>$ <span id="currentdipo">00</span></h2>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="withdrowarea trnsitem" >
+                    <h5>Withdrow</h5>
+                    <h2>$<span id="currentWithrow">00</span></h2>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="balancearea trnsitem">
+                    <h5>Balance</h5>
+                    <h2>$<span id="currentblnce">120</span></h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="row ">
+            <div class="col-md-6">
+            <div class="submit-area " >   
+                <h4>Diposit</h4>
+                <input id="dipAmmount" class="form-control" placeholder="$ Amount you want to diposit" type="text">
+                <br>
+                <button id="addiposit" class="btn btn-primary">Diposit</button>
+            </div>
+            </div>
+            <div class="col-md-6">
+
+                <div class="submit-area">
+                    <h4>Withdrow</h4>
+                <input id="widrwAmmount" class="form-control" placeholder="$ Amount you want to Withdrow" type="text">
+                <br>
+                <button id="addWidrw" class="btn btn-primary">Withdrow</button>
+                </div>
+            </div>
+
+
+        </div>
+        
+    </div>
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>

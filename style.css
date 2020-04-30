@@ -1,0 +1,35 @@
+body{
+    padding: 100px;
+}
+
+.welcome-txt{
+    text-align: center;
+}
+.submit-area{
+    margin-top: 50px;
+    border-radius: 10px;
+    -webkit-box-shadow: 5px 5px 12px 3px rgba(145,145,145,0.48); 
+    box-shadow: 5px 5px 12px 3px rgba(145,145,145,0.48);
+    padding: 50px;
+
+}
+#trans-area{
+    display: none;
+}
+.dipositarea{
+    background-color: blueviolet;
+
+}
+.withdrowarea{
+    background-color: coral;
+
+}
+.balancearea{
+    background-color: indianred;
+
+}
+.trnsitem{
+    padding: 30px;
+    color: white;
+    border-radius: 10px;
+}
